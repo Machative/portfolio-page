@@ -15,11 +15,11 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<ProjectList />} />
-          <Route path="/projects/IoTLoggingNetwork" element={<Project_IoTLog />} />
-          <Route path="/projects/SelfDrivingBicycle" element={<Project_EBike />} />
-          <Route path="/projects/GPRCSwitch" element={<Project_RCSwitch />} />
+          <Route path="/portfolio-page" element={<Home />} />
+          <Route path="/portfolio-page/projects" element={<ProjectList />} />
+          <Route path="/portfolio-page/projects/IoTLoggingNetwork" element={<Project_IoTLog />} />
+          <Route path="/portfolio-page/projects/SelfDrivingBicycle" element={<Project_EBike />} />
+          <Route path="/portfolio-page/projects/GPRCSwitch" element={<Project_RCSwitch />} />
         </Routes>
         <Footer />
       </div>
